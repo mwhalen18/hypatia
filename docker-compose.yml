@@ -13,9 +13,9 @@ services:
     entrypoint: ["python3", "-m", "main"]
     environment:
       SIGNAL_SERVICE: "signal-cli-rest-api:8080"
-      PHONE_NUMBER: "${PHONE_NUMBER}" #"+13148073243"
-      PLEX_USER: "${PLEX_USER}" #"matthewwhalen544"
-      PLEX_PWD: "${PLEX_PWD}" #"9a&%&gh&G@58GMwM"
+      PHONE_NUMBER: "${PHONE_NUMBER}"
+      PLEX_USER: "${PLEX_USER}"
+      PLEX_PWD: "${PLEX_PWD}"
       OPENAI_API_KEY: "${OPENAI_API_KEY}"
       TMDB_API_KEY: "${TMDB_API_KEY}"
     volumes:
