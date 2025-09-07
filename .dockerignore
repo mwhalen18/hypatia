@@ -1,0 +1,3 @@
+venv/
+signal-cli-config/
+docker-compose.yml
